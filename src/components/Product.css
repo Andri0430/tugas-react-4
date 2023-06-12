@@ -1,0 +1,51 @@
+.card-product{
+    height: 300px;
+    width: 240px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    background-color:gainsboro;
+}
+
+.product-img{
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.content{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > p{
+        margin: auto;
+    }
+}
+
+.cont-btn{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    > button{
+        height: 28px;
+        width: 78px;
+        border-radius: 8px;
+        border: 2px solid black;
+        font-weight: bold;
+
+        &:hover{
+            background-color: chocolate;
+            cursor: pointer;
+        }
+    }
+}
